@@ -1,8 +1,8 @@
-const name = "Генератор";
-let price = 1000;
+const total = 100;
+const ordered = 50;
 
-console.log(`Обрано «${name}», ціна за одиницю ${price} кредитів.`);
-
-price = 2000;
-
-console.log(`Обрано «${name}», ціна за одиницю ${price} кредитів.`);
+if (ordered > total) {
+  console.log("На складі недостатня кількість товару!");
+} else {
+  console.log("Замовлення оформлено.");
+}
